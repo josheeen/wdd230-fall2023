@@ -1,0 +1,33 @@
+@media screen and (min-width: 500px) {
+    header {
+        background-color: #506878;
+        color: white;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    nav {
+        background-color: #36454f;
+
+    }
+
+    nav ul {
+        display: flex;
+
+    }
+
+    nav a {
+        color: white;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    footer {
+        color: #fff;
+        background-color: #506878;
+    }
+}
