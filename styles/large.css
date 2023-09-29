@@ -1,4 +1,4 @@
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
     header {
         background-color: #506878;
         color: white;
@@ -29,5 +29,19 @@
     footer {
         color: #fff;
         background-color: #506878;
+    }
+
+    /* hides the menu button when the screen is 600px */
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        flex-direction: row;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
     }
 }
