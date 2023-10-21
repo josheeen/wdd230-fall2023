@@ -5,8 +5,8 @@ document.getElementById("lastModified").innerHTML = `Last Modified: ${new Date(d
 
 // Hamburger Button Menu
 
-const hamButton = document.querySelector('#menu');
-const navigation = document.querySelector('.navigation');
+const hamButton = document.querySelector('#hamburgerBtn');
+const navigation = document.querySelector('#primaryNav');
 
 hamButton.addEventListener('click', () => {
     navigation.classList.toggle('open');
