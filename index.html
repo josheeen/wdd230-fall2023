@@ -21,7 +21,7 @@
 <body>
     <header>
         <div class="pic">
-            <img src="images/rsz_1pic.jpg" alt="profile jpeg">
+            <img src="images/rsz_1pic.webp" alt="profile jpeg" width="200">
         </div>
         <h1 id="name">Joshua Reyes</h1>
     </header>
@@ -32,7 +32,8 @@
             <li><a id="home" href="#">Home</a></li>
             <li><a href="https://josheeen.github.io/wdd230/lesson03/chamber-site-plan.html" title="Site Plan"
                     class="active">Site Plan</a></li>
-            <li><a href="https://josheeen.github.io/wdd230/chamber/index.html" target="_blank" title="Chamber">Chamber</a></li>
+            <li><a href="https://josheeen.github.io/wdd230/chamber/index.html" target="_blank"
+                    title="Chamber">Chamber</a></li>
             <li><a href="https://www.byui.edu/" target="_blank">BYU-Idaho</a></li>
             <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7"
                     target="_blank">Scripture</a></li>
@@ -40,6 +41,15 @@
     </nav>
 
     <main>
+        <div class="hero">
+            <picture>
+                <source media="(max-width:400px)" srcset="images/hero-small.webp">
+                <img src="images/hero-large.webp" alt="Manila Temple" width="799" height="500">
+            </picture>
+            <div class="herolabel">
+                <p>Manila Temple</p>
+            </div>
+        </div>
         <h2>WDD 230: Web Frontend Development</h2>
         <section class="card">
             <h3>Learning Activities</h3>
@@ -50,7 +60,8 @@
                         Pseudo Elements</a></li>
                 <li>Week 4 | <a href="https://codepen.io/Joshua-Reyes/pen/mdaQpxM" target="_blank">CSS
                         Pseudo-classes</a> | </li>
-                <li>Week 5 | <a href="https://josheeen.github.io/wdd230/lesson05/bom.html" target="_blank">BOM Favorite Chapters</a></li>
+                <li>Week 5 | <a href="https://josheeen.github.io/wdd230/lesson05/bom.html" target="_blank">BOM Favorite
+                        Chapters</a></li>
             </ul>
         </section>
         <section class="card">
