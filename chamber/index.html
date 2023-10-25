@@ -23,13 +23,13 @@
 
 <body>
     <header>
-        <div class="header-logo"><a href="./"><img class="logo" src="images/rsz_olongapo-city-logo.png"
+        <div class="header-logo"><a href="./"><img class="logo" src="images/rsz_olongapo-city-logo.webp"
                     alt="site-logo"></a></div>
         <h1 class="header-h1">Olongapo City Chamber</h1>
         <p id="todaysDate"></p>
         <div class="header-social-media">
-            <a class="facebook-logo" href="https://www.facebook.com" target="_blank"><img src="images/facebook-logo.png"
-                    alt="Facebook Logo"></a>
+            <a class="facebook-logo" href="https://www.facebook.com" target="_blank"><img
+                    src="images/facebook-logo.webp" alt="Facebook Logo"></a>
             <nav>
                 <button id="hamburgerBtn"><span>&#9776;</span></button>
                 <ul id="primaryNav">
@@ -48,7 +48,9 @@
         <div class="home-hero">
             <h2>Welcome to Olongapo Chamber</h2>
             <picture>
-                <img src="images/olongapo-apo.jpg" alt="Olongapo City Img">
+                <source srcset="images/olongapo-image-small.webp" media="(max-width:600px)">
+                <source srcset="images/olongapo-image-medium.webp" media="(max-width:1050px)">
+                <img src="images/olongapo-image.webp" alt="Olongapo City Img">
             </picture>
         </div>
         <div class="home-event">
@@ -77,6 +79,9 @@
     </footer>
 
     <script src="scripts/getdates.js"></script>
+    <script type="module" src="scripts/weather.js"></script>
+    <script type="module" src="scripts/windchill.js"></script>
+
 </body>
 
 </html>
