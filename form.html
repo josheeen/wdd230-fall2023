@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joshua Reyes" />
+    <meta name="description" content="WDD 230 Web Frontend Dev | Joshua Reyes | course assignment portal" />
+    <title>[Joshua Reyes] - WDD 230 - Web Frontend Development</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Home Page for Joshua Reyes WDD230 portal" />
+    <meta property="og:type" content="index homepage" />
+    <meta property="og:image" content="images/html-css-js.png" />
+    <meta property="og:url" content="https://josheeen.github.io/wdd230/#" />
+
+</head>
+
+<body>
+    <header>
+        <div class="pic">
+            <img src="images/rsz_1pic.webp" alt="profile" width="200">
+        </div>
+        <h1>Joshua Reyes</h1>
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a id="home" href="index.html">Home</a></li>
+            <li><a href="https://josheeen.github.io/wdd230/lesson03/chamber-site-plan.html" title="Site Plan"
+                    class="active">Site Plan</a></li>
+            <li><a href="https://josheeen.github.io/wdd230/chamber/index.html" target="_blank"
+                    title="Chamber">Chamber</a></li>
+            <li><a href="https://www.byui.edu/" target="_blank">BYU-Idaho</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7"
+                    target="_blank">Scripture</a></li>
+        </ul>
+    </nav>
+    <main id="main-form">
+        <form action="record.html" method="get">
+            <label for="Username">Username: </label>
+            <input type="text" id="Username" name="Username" title="name" required><br><br>
+            <label for="Password">Password: </label>
+            <input type="password" id="Password" name="Password" title="Password" required
+                pattern="[a-zA-Z0-9].{8,}$"><br><br>
+            <label for="PasswordConfirmation">Password confirmation: </label>
+            <input type="password" id="PasswordConfirmation" name="PasswordConfirmation" title="Password"
+                pattern="[a-zA-Z0-9].{8,}$" required><br><br>
+            <label for="Email">E-mail: </label>
+            <input type="email" id="Email" name="Email" title="Please enter a valid email address"
+                pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required><br><br>
+            <label for="r">Page Range</label><br>
+            <input type="range" id="r" name="r" min="0" max="10" value="5" step="1" list="rangevalues">
+            <datalist id="rangevalues">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </datalist>
+            <button id="btnSubmit" type="submit">Submit Range</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span>| Joshua Reyes| Philippines</p>
+        <p id="lastModified">Last Modified: </p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+</body>
+
+</html>

@@ -219,3 +219,8 @@ main section ul {
     font-size: 2rem;
     font-family: "Great Vibes", serif;
 }
+
+/* week 8 addition */
+#main-form {
+    text-align: left;
+}
