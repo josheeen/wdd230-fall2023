@@ -124,6 +124,26 @@
         display: block;
     }
 
+
+    /* JOIN */
+    .home-join {
+        grid-column: 1;
+        grid-row: 3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .join-link {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .home-join p {
+        margin-top: 3rem;
+    }
+
     /* FOOTER */
 
     .footer-section1 {

@@ -130,6 +130,15 @@
         display: block;
     }
 
+
+    .join-link:hover {
+        background-color: rgba(56, 176, 0, .9);
+    }
+
+    .hide-join {
+        display: block;
+    }
+
     /* EVENT */
     .home-event {
         grid-column: 1/4;
