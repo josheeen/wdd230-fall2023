@@ -8,6 +8,10 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .main-column {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
     nav {
         background-color: #36454f;
 
