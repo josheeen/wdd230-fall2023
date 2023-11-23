@@ -123,8 +123,8 @@ footer {
 
 /* week 3 addition */
 main section ul {
-    display: grid;
-    grid-template-rows: repeat(10, 1fr);
+    /* display: grid;
+    grid-template-rows: repeat(10, 1fr); */
     list-style-type: none;
 }
 
