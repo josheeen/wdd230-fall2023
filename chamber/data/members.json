@@ -1,0 +1,60 @@
+{
+    "companies": [
+        {
+            "name": "Tekserv",
+            "add": "New Asinan, Olongapo City",
+            "tel": "0969 090 9837",
+            "url": "https://www.facebook.com/tekservpcstore",
+            "order": 1,
+            "imageurl": "./images/tekserv.webp"
+        },
+        {
+            "name": "Elick Bpo Solutions",
+            "add": "Jollibee Triangle, Olongapo City",
+            "tel": "000 0000 0000",
+            "url": "http://www.ellickbposolutions.com/",
+            "order": 2,
+            "imageurl": "./images/elick.webp"
+        },
+        {
+            "name": "Imart Shopping Center",
+            "add": "WEST BAJAC BAJAC, OLONGAPO CITY",
+            "tel": "09519183294",
+            "url": "https://www.facebook.com/N19ImartOlongapo",
+            "order": 3,
+            "imageurl": "./images/imart.webp"
+        },
+        {
+            "name": "New Star Retail",
+            "add": "Magsaysay Drive, Olongapo City",
+            "tel": "0963 673 1420",
+            "url": "https://www.facebook.com/NewstarOlongapoRetail",
+            "order": 4,
+            "imageurl": "./images/newstar.webp"
+        },
+        {
+            "name": "Zakka Online Shop Subic ",
+            "add": "No.13 Gordon Avenue, Olongapo",
+            "tel": "0943 326 5670",
+            "url": "https://www.facebook.com/ZakkaOnlineShopSubic",
+            "order": 5,
+            "imageurl": "./images/zakka.webp"
+        },
+        {
+            "name": "Spada Spa Olongapo",
+            "add": "Magsaysay Drive East Tapinac, Olongapo",
+            "tel": "047 602 4877",
+            "url": "https://spadamassage.com",
+            "order": 6,
+            "imageurl": "./images/spada.webp"
+        },
+        {
+            "name": "Edwins Restaurant",
+            "add": "730 Rizal Avenue, Olongapo",
+            "tel": "0929 775 8369",
+            "url": "https://www.facebook.com/EdwinsResto",
+            "order": 7,
+            "imageurl": "./images/edwins.webp"
+        }
+    ]
+}
