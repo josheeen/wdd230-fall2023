@@ -1,0 +1,44 @@
+{
+	"builds": [
+		{
+			"name": "Geneva Build",
+			"type": "Low",
+			"tags": "Streaming, Gaming",
+			"cpus": "AMD",
+			"services": "Free yearly maintenance for 2 years",
+			"wifis": "No",
+			"order": 1,
+			"imageurl": "./img/pc-1-resize.webp"
+		},
+		{
+			"name": "Ajmer Build",
+			"type": "Mid",
+			"tags": "Streaming, Gaming",
+			"cpus": "AMD",
+			"services": "Free yearly maintenance for 2 years",
+			"wifis": "Yes",
+			"order": 2,
+			"imageurl": "./img/pc-2-resize.webp"
+		},
+		{
+			"name": "Leipzig Build",
+			"type": "Mid",
+			"tags": "Streaming, Gaming, School",
+			"cpus": "Intel",
+			"services": "Free yearly maintenance for 2 years",
+			"wifis": "Yes",
+			"order": 3,
+			"imageurl": "./img/pc-3.webp"
+		},
+		{
+			"name": "Beira Build",
+			"type": "High",
+			"tags": "Streaming, Gaming, School, Office Work",
+			"cpus": "Intel",
+			"services": "Free yearly maintenance for 2 years",
+			"wifis": "Yes",
+			"order": 4,
+			"imageurl": "./img/pc-4.webp"
+		}
+	]
+}

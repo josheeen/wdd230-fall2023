@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="discription" content="page for reservation" />
+	<title>Reservation</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/large.css" />
+	<link rel="stylesheet" href="css/medium.css" />
+	<link rel="stylesheet" href="css/small.css" />
+	<link rel="short cut icon" href="favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+</head>
+
+<body>
+	<header>
+		<nav>
+			<button id="hamburgerBtn">
+				<span>&#9776;</span><span>&#x2715;</span>
+			</button>
+			<ul id="primaryNav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="build.html">Computer Builds</a></li>
+				<li><a href="service.html">Services</a></li>
+				<li><a href="reserve.html">Reservation</a></li>
+			</ul>
+		</nav>
+		<div class="logo1">
+			<a href="index.html" title="Home">
+				<img src="img/rsz_pc-workz.jpg" width="300" alt="header logo" />
+			</a>
+		</div>
+		<div id="min-banner">
+			<p id="text"></p>
+		</div>
+	</header>
+	<main>
+		<section class="r-container">
+			<h2>Reservation</h2>
+			<form action="target" method="get" enctype="multipart/form-data">
+				<fieldset>
+					<h4>Personal Information</h4>
+					<input placeholder="First Name" type="text" tabindex="1" pattern="[A-Z][a-z]+\s[A-Z][a-z]+"
+						required /><sup>*</sup>
+					<input placeholder="Last Name" type="text" tabindex="2" pattern="[A-Z][a-z]+\s[A-Z][a-z]+"
+						required /><sup>*</sup> <br /><br />
+					<input id="number" class="form-element-field" placeholder="Phone number" type="tel"
+						required /><sup>*</sup>
+					<input placeholder="Email Address" type="email" tabindex="3" name="email" /><br /><br />
+				</fieldset>
+				<div class="reservation-con">
+					<label>Build Type</label>
+					<select name="room">
+						<option value="Single">
+							Low Tier
+						</option>
+						<option value="Double">
+							Mid Tier
+						</option>
+						<option value="King">High Tier</option>
+					</select>
+					<br /><br />
+					<button class="submit" type="submit">SUBMIT</button>
+				</div>
+			</form>
+		</section>
+	</main>
+	<hr />
+	<footer>
+		<div class="info">
+			<a href="index.html" title="Home">
+				<p>
+					<img src="img/rsz_pc-workz.jpg" width="350" alt="footer logo" />
+				</p>
+			</a>
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3856.9163950445095!2d120.2754080804081!3d14.829949620210297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sComputer%20Center%2C%20Olongapo%2C%20Zambales!5e0!3m2!1sen!2sph!4v1702433968684!5m2!1sen!2sph"
+				width="550" height="250" style="border: 0" allowfullscreen="" loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<p>&#9654; Olongapo City,<br />Zambales, 2200</p>
+			<div class="icon">
+				<p>
+					<a href="https://facebook.com"><img
+							src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png" width="40"
+							alt="facebook icon" /></a>
+					<a href="https://www.instagram.com/"><img
+							src="https://img.icons8.com/ios-filled/50/000000/instagram-new--v1.png" width="40"
+							alt="instagram icon" /></a>
+					<a href="mailto:user@dammy.com"><img
+							src="https://img.icons8.com/material/48/000000/new-post--v1.png" width="43"
+							alt="email icon" /></a>
+				</p>
+			</div>
+		</div>
+		<div class="updated">
+			<hr />
+			<br />
+			&copy;2023 PC WorkZ | Joshua Reyes | Final Project WDD 230
+			<br />
+			<div id="lastModified"></div>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script defer src="js/main.js"></script>
+</body>
+
+</html>
